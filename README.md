@@ -9,8 +9,8 @@ TODO RouterModule
 TODO navigation
 TODO migration of Information
 TODO changelog
-
-
+TODO https://support.google.com/webmasters/answer/7451184?hl=en
+TODO meta description
 
 
 
