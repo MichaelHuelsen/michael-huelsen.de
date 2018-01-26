@@ -1,0 +1,7 @@
+{
+  "ftp-port": "21",
+  "ftp-url": "ftp.michael-huelsen.de",
+  "ftp-user" : "michaelh",
+  "ftp-password": "",
+  "ftp-default-folder": "/public_html"
+}
