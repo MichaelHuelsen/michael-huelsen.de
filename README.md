@@ -3,15 +3,18 @@
 ## TODO
 
 ### stuff
-* python linter
-* angular linters?
 
 ### open Tasks
+TODO RouterModule
+TODO navigation
+TODO migration of Information
+TODO changelog
 
-TODO webpack
-TODO angular
-TODO karma
-TODO jasmine
+
+
+
+
+## Information
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
