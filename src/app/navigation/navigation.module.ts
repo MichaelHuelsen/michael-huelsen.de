@@ -1,13 +1,11 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { NavigationComponent } from './navigation.component';
-
+import { CommonModule } from '@angular/common';
+import { MainMenuComponent } from './main-menu/main-menu.component';
 
 @NgModule({
-  imports: [ BrowserModule ],
-  declarations: [ NavigationComponent ],
-  providers: [],
-  bootstrap: [ NavigationComponent ]
+  imports: [
+    CommonModule
+  ],
+  declarations: [MainMenuComponent]
 })
 export class NavigationModule { }
