@@ -1,6 +1,6 @@
 {
-  "name": "michael-huelsen.de2",
-  "version": "0.0.0",
+  "name": "michael-huelsen.de",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -19,6 +19,7 @@
     "@angular/http": "^5.2.0",
     "@ng-bootstrap/ng-bootstrap": "^1.0.0",
     "angular-forms": "0.0.1",
+    "bootstrap-sass": "^3.3.7",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
@@ -42,6 +43,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "node-sass": "^4.7.2",
     "protractor": "~5.1.2",
     "source-map-explorer": "^1.5.0",
     "ts-node": "~4.1.0",
