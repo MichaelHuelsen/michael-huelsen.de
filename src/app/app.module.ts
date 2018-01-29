@@ -5,12 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './basic/navigation/navigation.component';
 import { HomeComponent } from './basic/home/home.component';
 import { DevelopmentComponent } from './development/development/development.component'
 import { AboutmeComponent } from './about/aboutme/aboutme.component'
 import { ImprintComponent } from './basic/imprint/imprint.component';
+import { FooterComponent } from './basic/footer/footer.component';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
@@ -22,7 +24,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     AppRoutingModule
   ],
   declarations: [AppComponent, NavigationComponent, HomeComponent, AboutmeComponent,
-    DevelopmentComponent, ImprintComponent],
+    DevelopmentComponent, ImprintComponent, FooterComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

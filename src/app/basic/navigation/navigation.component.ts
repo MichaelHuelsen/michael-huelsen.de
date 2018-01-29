@@ -23,7 +23,7 @@ export class NavigationComponent implements OnInit {
     "id": "dd-dev",
     "icon": "fa-cogs",
     "iconclasses": "fa",
-    "link": "",
+    "link": "Development",
     "children": [
       {
         "label": "From AngularJS to Angular",
@@ -51,7 +51,7 @@ export class NavigationComponent implements OnInit {
     "label": "About Me",
     "id": "dd-test",
     "icon": "fa-street-view",
-    "link": "",
+    "link": "About",
     "children": [
       {
         "label": "About",
