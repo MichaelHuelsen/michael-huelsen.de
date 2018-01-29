@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [HomeComponent, ImprintComponent]
+  declarations: [HomeComponent, ImprintComponent, NavigationComponent]
 })
 export class BasicModule { }

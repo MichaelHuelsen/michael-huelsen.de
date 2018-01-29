@@ -6,14 +6,23 @@ import { HttpModule } from '@angular/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { NavigationComponent } from './basic/navigation/navigation.component';
+import { HomeComponent } from './basic/home/home.component';
+import { DevelopmentComponent } from './development/development/development.component'
+import { AboutmeComponent } from './about/aboutme/aboutme.component'
+import { ImprintComponent } from './basic/imprint/imprint.component';
+
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, HttpModule,
-     AppRoutingModule
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    AppRoutingModule
   ],
-  declarations: [AppComponent, AppRoutingModule
-    ],
+  declarations: [AppComponent, NavigationComponent, HomeComponent, AboutmeComponent,
+    DevelopmentComponent, ImprintComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

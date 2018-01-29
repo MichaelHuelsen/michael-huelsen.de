@@ -1,0 +1,51 @@
+<!-- Fixed navbar -->
+<!--<nav class="navbar navbar-default navbar-fixed-top">-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <!--<div class="container-fluid">-->
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle mh-left-aligned" ng-click="navbarCollapsed = !navbarCollapsed" data-toggle="collapse" data-target="#mynavbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+      <div class="block-center">
+        <a class="navbar-brand small-caps" [innerHtml]="myBrand"></a>
+      </div>
+    </div>
+    <div id="mynavbar " ng-class="{ 'in':navbarCollapsed} " class="collapse navbar-collapse " data-toggle="collapse " data-target="#mynavbar ">
+      <ul class="nav navbar-nav ">
+        <li *ngFor="let menuitem of menuItems " data-target="#mynavbar " class="small-caps ">
+          <a href="/{{menuitem.link}} " *ngIf="menuitem.link !='' ">
+            <span class="btn-menu-text " [innerHtml]="menuitem.label "></span>
+          </a>
+        </li>
+        <!--
+        <div class="btn-group " uib-dropdown=" " is-open="status.isopen " *ngIf="menuitem.children.length> 0">
+          <span ng-attr-id="menuitem.id" type="button" uib-dropdown-toggle="" ng-disabled="disabled" class="small-caps">
+							<span  [innerHtml]="menuitem.label"></span>
+          <span class="caret"></span>
+          </span>
+          <ul class="dropdown-menu mh-navbar-menu-children" uib-dropdown-menu="" role="menu" aria-labelledby="menuitem.id">
+            <li *ngFor="#child in menuitem.children" class="mh-navbar-menu-children">
+              <a href="/{{child.link}}" *ngIf="child.link != ''">
+									 <span class="btn-menu-text" [innerHtml]="child.label"></span>
+								 </a>
+              <div *ngIf="child.separator == true" class="divider"></div>
+            </li>
+          </ul>
+        </div>
+      -->
+      </ul>
+    </div>
+  </div>
+  <!--  </div> end of container fluid -->
+</nav>
+<!--
+<div class="header-bar"></div>
+<nav>
+  <a routerLink="/home">HomeLink</a>
+  <a routerLink="/imprint">Imprint</a>
+</nav>
+-->
