@@ -3,9 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
-
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './basic/navigation/navigation.component';
 import { HomeComponent } from './basic/home/home.component';
