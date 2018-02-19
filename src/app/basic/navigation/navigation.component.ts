@@ -51,7 +51,7 @@ export class NavigationComponent implements OnInit {
     "label": "About Me",
     "id": "dd-test",
     "icon": "fa-street-view",
-    "link": "About",
+    "link": "AboutMe",
     "children": [
       {
         "label": "About",

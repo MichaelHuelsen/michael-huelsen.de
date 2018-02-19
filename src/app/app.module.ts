@@ -6,10 +6,10 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './basic/navigation/navigation.component';
 import { HomeComponent } from './basic/home/home.component';
-import { DevelopmentComponent } from './development/development/development.component'
-import { AboutmeComponent } from './about/aboutme/aboutme.component'
 import { ImprintComponent } from './basic/imprint/imprint.component';
 import { FooterComponent } from './basic/footer/footer.component';
+import { DevelopmentComponent } from './development/development/development.component'
+import { AboutmeComponent } from './about/aboutme/aboutme.component'
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
