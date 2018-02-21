@@ -6,6 +6,7 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
   imports: [
     CommonModule
   ],
-  declarations: [AboutmeComponent]
+  declarations: [AboutmeComponent],
+  exports: [AboutmeComponent]
 })
 export class AboutModule { }

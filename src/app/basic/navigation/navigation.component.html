@@ -1,3 +1,4 @@
+<!-- web example
 <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
   <a class="navbar-brand" href="#">Angular CLI + Bootstrap</a>
   <div class="collapse navbar-collapse">
@@ -25,6 +26,7 @@
     </ul>
   </div>
 </nav>
+-->
 
 <!-- Fixed navbar -->
 <!--<nav class="navbar navbar-default navbar-fixed-top">-->
@@ -40,13 +42,13 @@
               <span class="icon-bar"></span>
             </button>
           -->
-      <a class="navbar-brand" href="#" [innerHtml]="myBrand"></a>
+      <a class="navbar-brand" href="/" [innerHtml]="myBrand"></a>
     </div>
     <div id="mynavbar " ng-class="{ 'in':navbarCollapsed} " class="collapse navbar-collapse " data-toggle="collapse " data-target="#mynavbar ">
       <ul class="nav navbar-nav ">
         <li *ngFor="let menuitem of menuItems " data-target="#mynavbar " class="small-caps">
-          <a href="/{{menuitem.link}} " *ngIf="menuitem.link !='' ">
-            <span class="btn-menu-text " [innerHtml]="menuitem.label "></span>
+          <a href="/{{menuitem.link}}" *ngIf="menuitem.link !='' ">
+            <span class="btn-menu-text" [innerHtml]="menuitem.label "></span>
           </a>
         </li>
       </ul>

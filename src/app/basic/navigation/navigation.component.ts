@@ -18,7 +18,7 @@ export class NavigationComponent implements OnInit {
     "icon": "fa-home",
     "link": "Home"
   },
-  {
+  /*{
     "label": "Development",
     "id": "dd-dev",
     "icon": "fa-cogs",
@@ -46,7 +46,7 @@ export class NavigationComponent implements OnInit {
         "separator": false
       }
     ]
-  },
+  },*/
   {
     "label": "About Me",
     "id": "dd-test",
@@ -63,6 +63,11 @@ export class NavigationComponent implements OnInit {
         "link": "About/Policy",
       }
     ]
+  },
+  {
+    "label": "PGP",
+    "icon": "fa-info",
+    "link": "PGP"
   },
   {
     "label": "Imprint",
