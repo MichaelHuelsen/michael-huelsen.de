@@ -7,9 +7,17 @@ import { FooterComponent } from './footer/footer.component';
 import { PgpComponent } from './pgp/pgp.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+
+
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatCardModule
   ],
   //declarations: [HomeComponent, ImprintComponent, NavigationComponent, FooterComponent]
   declarations: [HomeComponent, ImprintComponent, NavigationComponent,

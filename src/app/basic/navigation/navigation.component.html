@@ -1,57 +1,12 @@
-<!-- web example
-<nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Angular CLI + Bootstrap</a>
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="https://medium.com/@beeman"><i class="fa fa-medium" aria-hidden="true"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://twitter.com/@beeman_nl"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/beeman"><i class="fa fa-github" aria-hidden="true"></i></a>
-      </li>
-    </ul>
-  </div>
-</nav>
--->
-
-<!-- Fixed navbar -->
-<!--<nav class="navbar navbar-default navbar-fixed-top">-->
-<nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
-  <!--<div class="container-fluid">-->
-  <div class="container">
-    <div class="navbar-header">
-      <!--
-      <button type="button" class="navbar-toggle mh-left-aligned" ng-click="navbarCollapsed = !navbarCollapsed" data-toggle="collapse" data-target="#mynavbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          -->
-      <a class="navbar-brand" href="/" [innerHtml]="myBrand"></a>
-    </div>
-    <div id="mynavbar " ng-class="{ 'in':navbarCollapsed} " class="collapse navbar-collapse " data-toggle="collapse " data-target="#mynavbar ">
-      <ul class="nav navbar-nav ">
-        <li *ngFor="let menuitem of menuItems " data-target="#mynavbar " class="small-caps">
-          <a href="/{{menuitem.link}}" *ngIf="menuitem.link !='' ">
+<mat-toolbar color="primary" class="mh-navigation">
+  <span [innerHtml]="myBrand"></span>
+  <ul>
+    <li *ngFor="let menuitem of menuItems " class="small-caps">
+      <a href="/{{menuitem.link}}" *ngIf="menuitem.link !='' ">
+          <button mat-raised-button color="primary">
             <span class="btn-menu-text" [innerHtml]="menuitem.label "></span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          </button>
+        </a>
+    </li>
+  </ul>
+</mat-toolbar>
