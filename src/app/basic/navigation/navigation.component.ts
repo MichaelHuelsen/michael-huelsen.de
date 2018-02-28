@@ -17,7 +17,8 @@ export class NavigationComponent implements OnInit {
   menuItems = [{
     "label": "Home",
     "icon": "fa-home",
-    "link": "Home"
+    "link": "Home",
+    "tooltip": "Home"
   },
   /*{
     "label": "Development",
@@ -53,6 +54,7 @@ export class NavigationComponent implements OnInit {
     "id": "dd-test",
     "icon": "fa-street-view",
     "link": "AboutMe",
+    "tooltip": "Something about me",
     "children": [
       {
         "label": "About",
@@ -68,12 +70,14 @@ export class NavigationComponent implements OnInit {
   {
     "label": "PGP",
     "icon": "fa-info",
-    "link": "PGP"
+    "link": "PGP",
+    "tooltip": "My PGP policy",
   },
   {
     "label": "Imprint",
     "icon": "fa-info",
-    "link": "Imprint"
+    "link": "Imprint",
+    "tooltip": "Imprint"
   }
   ];
 

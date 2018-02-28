@@ -1,15 +1,16 @@
 # michael-huelsen.de
 
-
 ## TODO
 
 ### stuff
 
 ### open Tasks
 
-TODO RouterModule TODO navigation TODO migration of Information TODO changelog TODO <https://support.google.com/webmasters/answer/7451184?hl=en> TODO meta description TODO further sass/css stuff , @media
-
-TODO htaccess
+- RouterModule
+- navigation
+- migration of Information
+- changelog
+- pgp polcy subURL
 
 ## Information
 

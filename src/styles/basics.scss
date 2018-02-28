@@ -1,0 +1,25 @@
+.no-margin {
+  margin: 0 ;
+  padding: 0;
+}
+
+.float {
+  float: left;
+}
+
+.starter-template {
+  // padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.my-main {
+  margin-top: $medium-spacing;
+}
+
+.my-footer {
+  margin-top: $medium-spacing;
+}
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}

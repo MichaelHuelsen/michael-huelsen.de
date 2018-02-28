@@ -11,13 +11,18 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatIconModule } from '@angular/material/icon';
+
 
 @NgModule({
   imports: [
     CommonModule,
     MatButtonModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatTooltipModule,
+    MatIconModule
   ],
   //declarations: [HomeComponent, ImprintComponent, NavigationComponent, FooterComponent]
   declarations: [HomeComponent, ImprintComponent, NavigationComponent,
