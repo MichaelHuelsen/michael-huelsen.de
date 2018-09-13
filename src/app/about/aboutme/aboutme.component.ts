@@ -24,6 +24,12 @@ export class AboutmeComponent implements OnInit {
       "iconstyle": "fa fa-2x",
       "link": "http://stackoverflow.com/users/4537576/michaelhuelsen"
     },
+    {
+      "name": "Scala Programming Language",
+      "icon": "",
+      "iconstyle": "fa fa-2x",
+      "link": "https://www.scala-lang.org"
+    },
   ];
   visitLinkItems = [{
     "url": "http://www.debian.org/",

@@ -26,26 +26,24 @@ export class ChangelogComponent implements OnInit {
       },*/
     {
       "versionName": "2.0.2",
-      "versionDate": "2018-03-01",
+      "versionDate": "2018-09-13",
       "versionIssues": [
-        { "text": "TEXT1" },
-        { "text": "TEXT2" },
+        { "text": "Change log display implemented" },
       ]
     },
     {
       "versionName": "2.0.1",
       "versionDate": "2018-02-27",
       "versionIssues": [
-        { "text": "TEXT1" },
-        { "text": "TEXT2" },
+        { "text": "UI Framework changed to Angular Material" },
       ]
     },
     {
       "versionName": "2.0.0",
       "versionDate": "2018-02-21",
       "versionIssues": [
-        { "text": "TEXT1" },
-        { "text": "TEXT2" },
+        { "text": "Finalization of initial rewrite" },
+        { "text": "Deployment of version 2.0.0" },
       ]
     },
     {

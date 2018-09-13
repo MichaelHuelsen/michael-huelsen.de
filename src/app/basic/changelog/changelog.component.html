@@ -1,11 +1,11 @@
 <div class="mat-card">
-  Recent changes
+  Change Log
   <ul>
     {{testVal}}
     <li *ngFor="let v of changelog">
       Version {{v.versionName}}, {{v.versionDate}}
       <ul>
-        <li *ngFor="let i of v.versionIssues">{{i.text}}</li>
+          <li *ngFor="let i of v.versionIssues">{{i.text}}</li>
       </ul>
       <br />
     </li>
