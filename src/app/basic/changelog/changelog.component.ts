@@ -28,6 +28,7 @@ export class ChangelogComponent implements OnInit {
       "versionName": "2.0.2",
       "versionDate": "2018-09-13",
       "versionIssues": [
+        { "text": "https working properly as default, http requests are rerouted." },
         { "text": "Change log display implemented" },
       ]
     },
