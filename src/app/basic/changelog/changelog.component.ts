@@ -11,9 +11,6 @@ export class ChangelogComponent implements OnInit {
 
   ngOnInit() {
   }
-  testVal = "";
-
-  clTest = "Hallo";
 
   changelog = [
     /*{
@@ -24,6 +21,13 @@ export class ChangelogComponent implements OnInit {
           { "text":"TEXT2" },
         ]
       },*/
+    {
+      "versionName": "2.0.3",
+      "versionDate": "2018-09-22",
+      "versionIssues": [
+        { "text": "Fixed link list and markup." }
+      ]
+    },
     {
       "versionName": "2.0.2",
       "versionDate": "2018-09-13",

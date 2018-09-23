@@ -23,13 +23,7 @@ export class AboutmeComponent implements OnInit {
       "icon": "fa-stack-overflow",
       "iconstyle": "fa fa-2x",
       "link": "http://stackoverflow.com/users/4537576/michaelhuelsen"
-    },
-    {
-      "name": "Scala Programming Language",
-      "icon": "",
-      "iconstyle": "fa fa-2x",
-      "link": "https://www.scala-lang.org"
-    },
+    }
   ];
   visitLinkItems = [{
     "url": "http://www.debian.org/",
@@ -48,8 +42,12 @@ export class AboutmeComponent implements OnInit {
     "website": "Ubuntuusers.de"
   },
   {
-    "url": "https://angularJS.org/",
-    "website": "AngularJS"
+    "url": "https://angular.io/",
+    "website": "Angular.io"
+  },
+  {
+    "website": "Scala Programming Language",
+    "url": "https://www.scala-lang.org"
   },
   {
     "url": "http://www.heise.de/open/",
