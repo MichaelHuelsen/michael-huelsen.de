@@ -1,14 +1,17 @@
 <mat-toolbar color="primary" class="mh-navigation">
-  <span [innerHtml]="myBrand"></span>
-  <span class="example-spacer"></span>
-  <div *ngFor="let menuitem of menuItems " class="small-caps float">
-    <a href="/{{menuitem.link}}" *ngIf="menuitem.link !='' " class="nav-button">
-          <button mat-raised-button color="primary">
-            <span matTooltip="{{menuitem.tooltip}}"
-             [innerHtml]="menuitem.label "></span>
-  </button>
-  </a>
-  </div>
-  <span class="fill-remaining-space"></span>
-  <!-- -->
+  <mat-toolbar-row>
+    <span [innerHtml]="myBrand"></span>
+    <div [ngStyle]="{'padding-right':'7px', 'padding-left':'7px'}" [innerHtml]="separator">
+    </div>
+    <span [innerHtml]="subLine"></span>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <div *ngFor="let menuitem of menuItems " class="small-caps float">
+      <a href="/{{menuitem.link}}" class="nav-button" *ngIf="menuitem.link != ''">
+      <button mat-raised-button color="primary">
+      <span matTooltip="{{menuitem.tooltip}}" [innerHtml]="menuitem.label"> </span>
+      </button>
+      </a>
+    </div>
+  </mat-toolbar-row>
 </mat-toolbar>

@@ -1,23 +1,29 @@
 <mat-card class="my-main">
-  <div class="page-header mh-page-title" ng-bind="pageTitle" id="pageTitle">
+  <mat-card-title>
     About me.
-    <br />
-    <br />
-  </div>
+  </mat-card-title>
+</mat-card>
 
-  <div class="page-header mh-page-section">
-    Connect.</div>
-  <ul class="nobullets" style="line-height:25px; margin:10px">
-    <li *ngFor="let l of connectLinkItems">
-      <a class="nobullets dont-break-out" target="_blank" href="{{l.link}}" [innerHtml]="l.name"></a>
-    </li>
-  </ul>
+<mat-card>
+  <mat-card-title>
+    Connect.
+  </mat-card-title>
+  <mat-card-content>
+    <ul class="nobullets" style="line-height:25px; margin:10px">
+      <li *ngFor="let l of connectLinkItems">
+        <a class="nobullets dont-break-out" target="_blank" href="{{l.link}}" [innerHtml]="l.name"></a>
+      </li>
+    </ul>
+  </mat-card-content>
+</mat-card>
 
-  <div class="page-header mh-page-section">
-    Visit.</div>
-  <ul class="nobullets dont-break-out" style="line-height:25px;margin:10px">
-    <li *ngFor="let l of visitLinkItems">
-      <a href="{{l.url}}" target="_blank" [innerHtml]="l.website"></a>
-    </li>
-  </ul>
+<mat-card>
+  <mat-card-title>Visit.</mat-card-title>
+  <mat-card-content>
+    <ul class="nobullets dont-break-out" style="line-height:25px;margin:10px">
+      <li *ngFor="let l of visitLinkItems">
+        <a href="{{l.url}}" target="_blank" [innerHtml]="l.website"></a>
+      </li>
+    </ul>
+  </mat-card-content>
 </mat-card>

@@ -13,7 +13,9 @@ export class NavigationComponent implements OnInit {
   ngOnInit() {
   }
 
-  myBrand = "michael-huelsen.de";
+  myBrand = "michael-huelsen.de ";
+  separator = "|";
+  subLine = "IT Consulting, Solutions, Services";
   menuItems = [{
     "label": "Home",
     "icon": "fa-home",
