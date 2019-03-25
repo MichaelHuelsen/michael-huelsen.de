@@ -50,7 +50,7 @@ export class NavigationComponent implements OnInit {
         "separator": false
       }
     ]
-  },*/
+  },
   {
     "label": "About Me",
     "id": "dd-test",
@@ -68,7 +68,7 @@ export class NavigationComponent implements OnInit {
         "link": "About/Policy",
       }
     ]
-  },
+  },*/
   {
     "label": "PGP",
     "icon": "fa-info",

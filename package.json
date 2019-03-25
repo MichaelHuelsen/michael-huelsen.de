@@ -1,11 +1,11 @@
 {
   "name": "michael-huelsen.de",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "start-aot": "ng serve --aot",
-    "build": "ng build --prod --base-href /",
+    "build-prod": "ng build --prod --base-href /",
     "build-dev": "ng build",
     "test": "ng test",
     "lint": "ng lint",

@@ -22,6 +22,13 @@ export class ChangelogComponent implements OnInit {
         ]
       },*/
     {
+      "versionName": "2.1.0",
+      "versionDate": "2019-03-25",
+      "versionIssues": [
+        { "text": "Refurbishments." }
+      ]
+    },
+    {
       "versionName": "2.0.3",
       "versionDate": "2018-09-22",
       "versionIssues": [
