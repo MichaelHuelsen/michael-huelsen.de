@@ -4,6 +4,8 @@
     <div [ngStyle]="{'padding-right':'7px', 'padding-left':'7px'}" [innerHtml]="separator">
     </div>
     <span [innerHtml]="subLine"></span>
+    </mat-toolbar-row>
+    <mat-toolbar-row>
     <div *ngFor="let menuitem of menuItems " class="small-caps float" style="margin-left:10px">
       <a href="/{{menuitem.link}}" class="nav-button" *ngIf="menuitem.link != ''">
       <button mat-raised-button color="primary">
