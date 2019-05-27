@@ -30,11 +30,12 @@ The app will automatically reload if you change any of the source files.
 This can be done with the help of `npm run start`. Start is defined as
 task.
 
-
 ### Build
 
-Run `ng build` to build the project. The build artifacts will be stored 
+Run `ng build` to build the project. The build artifacts will be stored
 in the `dist/` directory. Use the `-prod` flag for a production build.
+
+Run `npm run build-prod` for the production build, this is a pre-defined npm task.
 
 ### Running unit tests
 

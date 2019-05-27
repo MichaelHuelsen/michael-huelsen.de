@@ -22,6 +22,12 @@ export class ChangelogComponent implements OnInit {
         ]
       },*/
     {
+      "versionName": "2.1.2",
+      "versionDate": "2019-05-28",
+      "versionIssues": [
+        { "text": "Corrections in pgp policy." }
+      ]
+    },{
       "versionName": "2.1.1",
       "versionDate": "2019-03-26",
       "versionIssues": [
