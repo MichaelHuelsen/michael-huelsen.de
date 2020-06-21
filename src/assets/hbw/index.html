@@ -1,0 +1,103 @@
+<html>
+  <head>
+      <link rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+      <meta charset="UTF-8">
+
+  </head>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"> </script>
+<script>
+$(document).ready(function() {
+  $('#biertje').DataTable( {
+        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+        "paging": false
+    } );;
+} );
+</script>
+
+
+<table id="biertje" class="display" style="width:100%">
+  <thead>
+      <tr>
+          <th>Brauerei</th>
+          <th>Bier</th>
+          <th>Datum</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr><td>Becks</td><td>Pils</td><td>2020-05-20</td></tr>
+    <tr><td>Breznak</td><td>Original Böhmisch Premium Pils</td><td>2020-05-20</td></tr>
+    <tr><td>Corsendonk</td><td>7,5 (Pater oder Agnus)</td><td>2020-05-20</td></tr>
+    <tr><td>Duff</td><td>Beer</td><td>2020-05-20</td></tr>
+    <tr><td>Erdinger</td><td>Weizen</td><td>2020-05-20</td></tr>
+    <tr><td>Flensburger</td><td>Pils</td><td>2020-05-20</td></tr>
+    <tr><td>Gaffel</td><td>Viking Kölsch</td><td>2020-05-20</td></tr>
+    <tr><td>Gangelter</td><td>fruchtig hell</td><td>2020-05-20</td></tr>
+    <tr><td>Guiness</td><td>Dose</td><td>2020-05-20</td></tr>
+    <tr><td>Hansa</td><td>Pils</td><td>2020-05-20</td></tr>
+    <tr><td>Hensen</td><td>Pale Ale</td><td>2020-05-20</td></tr>
+    <tr><td>Hofbräu</td><td>Münchner Weisse</td><td>2020-05-20</td></tr>
+    <tr><td>Holzar</td><td>Bier</td><td>2020-05-20</td></tr>
+    <tr><td>Kasteel</td><td>Donker</td><td>2020-05-20</td></tr>
+    <tr><td>Krusovice</td><td>Imperial</td><td>2020-05-20</td></tr>
+    <tr><td>Lech</td><td>Helles</td><td>2020-05-20</td></tr>
+    <tr><td>Leffe</td><td>Tripel</td><td>2020-05-20</td></tr>
+    <tr><td>Mönchshof</td><td>Landbier</td><td>2020-05-20</td></tr>
+    <tr><td>Porter</td><td>Standard</td><td>2020-05-20</td></tr>
+    <tr><td>Salitos</td><td>Beer</td><td>2020-05-20</td></tr>
+    <tr><td>San Miguel</td><td>Especial</td><td>2020-05-20</td></tr>
+    <tr><td>Spaten</td><td>Helles</td><td>2020-05-20</td></tr>
+    <tr><td>Stormking</td><td>Stout</td><td>2020-05-20</td></tr>
+    <tr><td>Störtebecker</td><td>Pils</td><td>2020-05-20</td></tr>
+    <tr><td>Tyskie</td><td>Gronie (Helles)</td><td>2020-05-20</td></tr>
+    <tr><td>Gulpener</td><td>Ur-Hop IPA</td><td>2020-06-20</td></tr>
+    <tr><td>Hensen</td><td>Ofenrohr Rauchbier</td><td>2020-06-20</td></tr>
+    <tr><td>Bitburger</td><td>Pils</td><td>2020-06-20</td></tr>
+    <tr><td>Steinfelder</td><td>Klosterbier</td><td>2020-06-20</td></tr>
+    <tr><td>Tucher</td><td>Bajuvator Doppelbock</td><td>2020-06-20</td></tr>
+    <tr><td>Wicküler </td><td>Pils</td><td>2020-06-20</td></tr>
+    <tr><td>Schoppe Bräu</td><td>French Kiss Strong Ale</td><td>2020-06-20</td></tr>
+    <tr><td>Brand </td><td>Pilsener</td><td>2020-06-20</td></tr>
+    <tr><td>Bitburger</td><td>Winterbock</td><td>2020-06-20</td></tr>
+    <tr><td>Kilkenny</td><td>Red Ale</td><td>2020-06-20</td></tr>
+    <tr><td>Anchor</td><td>Steam Beer</td><td>2020-06-20</td></tr>
+    <tr><td>Franziskaner</td><td>Royal</td><td>2020-06-20</td></tr>
+    <tr><td>Aecht Schlenkerla</td><td>Rauchbier</td><td>2020-06-20</td></tr>
+    <tr><td>Palm</td><td>Belgisch Bier</td><td>2020-06-20</td></tr>
+    <tr><td>Allgäuer</td><td>Büble Bier</td><td>2020-06-20</td></tr>
+    <tr><td>Odin-Trunk</td><td>Honigbier</td><td>2020-06-20</td></tr>
+    <tr><td>Hensen</td><td>Coffee Stout</td><td>2020-06-20</td></tr>
+    <tr><td>Früh</td><td>Kölsch</td><td>2020-06-20</td></tr>
+    <tr><td>Sester</td><td>Kölsch</td><td>2020-06-20</td></tr>
+    <tr><td>Vedett</td><td>Extra Ordinary IPA</td><td>2020-06-20</td></tr>
+    <tr><td>Sernla</td><td>Pils</td><td>2020-06-20</td></tr>
+    <tr><td>Schwarzbräu</td><td>Nussknacker Brew Age</td><td>2020-06-20</td></tr>
+    <tr><td>Leffe</td><td>Blond</td><td>2020-06-20</td></tr>
+    <tr><td>Mönchshof</td><td>Landbier</td><td>2020-06-20</td></tr>
+    <tr><td>Vedett</td><td>Extra Blond</td><td>2020-06-20</td></tr>
+    <tr><td>Hofbräuhaus</td><td>Helles Vollbir</td><td>2020-06-20</td></tr>
+    <tr><td>Cramer</td><td>Bio Kellerbier</td><td>2020-06-20</td></tr>
+    <tr><td>Landgang Brauerei</td><td>Amerikanischer Traum</td><td>2020-06-20</td></tr>
+    <tr><td>Rodenbach</td><td>Alexander aged in oak foeders</td><td>2020-06-20</td></tr>
+    <tr><td>Brlo</td><td>German IPA</td><td>2020-06-20</td></tr>
+    <tr><td>Westmalle</td><td>Tripel</td><td>2020-06-20</td></tr>
+    <tr><td>Turmbräu</td><td>Pils</td><td>2020-06-20</td></tr>
+    <tr><td>Maissels Weisse</td><td>Kristall</td><td>2020-06-20</td></tr>
+    <tr><td>Brand </td><td>Lente</td><td>2020-06-20</td></tr>
+    <tr><td>Camba</td><td>Amber</td><td>2020-06-20</td></tr>
+    <tr><td>Ratsherren</td><td>Pils</td><td>2020-06-20</td></tr>
+    <tr><td>Bitburger</td><td>Kellerbier</td><td>2020-06-20</td></tr>
+    <tr><td>Eifeler</td><td>Landbier</td><td>2020-06-20</td></tr>
+    <tr><td>Poppels</td><td>Russian Imperial Stout</td><td>2020-06-20</td></tr>
+  </tbody>
+    <tfoot>
+      <tr>
+          <th>Brauerei</th>
+          <th>Bier</th>
+          <th>Datum</th>
+      </tr>
+  </tfoot>
+</table>
+</html>

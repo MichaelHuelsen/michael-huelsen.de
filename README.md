@@ -56,3 +56,8 @@ ng build --prod --sourcemaps
 ls dist/*.bundle.js
 
 node_modules/.bin/source-map-explorer dist/main.*.bundle.js
+
+
+## GRIP
+
+grip src/assets/hbw/biertje.md --export src/assets/hbw/index.html
