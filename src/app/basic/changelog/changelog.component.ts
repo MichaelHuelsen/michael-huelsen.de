@@ -22,6 +22,13 @@ export class ChangelogComponent implements OnInit {
         ]
       },*/
     {
+      "versionName": "2.1.3",
+      "versionDate": "2020-07-02",
+      "versionIssues": [
+        { "text": "Corrections in imprint." },
+        { "text": "Some npm packages were updated." }
+      ]
+    },{
       "versionName": "2.1.2",
       "versionDate": "2019-05-28",
       "versionIssues": [
