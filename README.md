@@ -4,11 +4,11 @@
 
 ### open Tasks
 
-- RouterModule
-- navigation
-- migration of Information
-- changelog
-- pgp polcy subURL
+- buttons on mobile
+- more tests
+- about me
+- development % technology
+- index.html meta information
 
 ## Information
 
