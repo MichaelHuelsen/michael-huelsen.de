@@ -14,11 +14,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
-## Code 
+## Code
 
 ### Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. 
+Run `ng generate component component-name` to generate a new component.
 You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Continous Integration and Deployment
@@ -56,7 +56,6 @@ ng build --prod --sourcemaps
 ls dist/*.bundle.js
 
 node_modules/.bin/source-map-explorer dist/main.*.bundle.js
-
 
 ## GRIP
 

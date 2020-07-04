@@ -1,17 +1,37 @@
-<mat-toolbar color="primary" class="mh-navigation">
+<!-- <mat-toolbar color="primary" class="mh-navigation">
   <mat-toolbar-row>
     <span [innerHtml]="myBrand"></span>
     <div [ngStyle]="{'padding-right':'7px', 'padding-left':'7px'}" [innerHtml]="separator">
     </div>
     <span [innerHtml]="subLine"></span>
-    </mat-toolbar-row>
-    <mat-toolbar-row>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
     <div *ngFor="let menuitem of menuItems " class="small-caps float" style="margin-left:10px">
       <a href="/{{menuitem.link}}" class="nav-button" *ngIf="menuitem.link != ''">
-      <button mat-raised-button color="primary">
-      <span matTooltip="{{menuitem.tooltip}}" [innerHtml]="menuitem.label"> </span>
-      </button>
+        <button mat-raised-button color="primary">
+          <span matTooltip="{{menuitem.tooltip}}" [innerHtml]="menuitem.label" id="btn_{{menuitem.id}}"> </span>
+        </button>
       </a>
     </div>
   </mat-toolbar-row>
 </mat-toolbar>
+-->
+  <mat-toolbar color="primary" class="mh-navigation">
+    <mat-toolbar-row>
+
+      <span [innerHtml]="myBrand"></span>
+      <div [ngStyle]="{'padding-right':'7px', 'padding-left':'7px'}" [innerHtml]="separator">
+      </div>
+      <span [innerHtml]="subLine"></span>
+    </mat-toolbar-row>
+    <mat-toolbar-row>
+      <div *ngFor="let menuitem of menuItems " class="small-caps float" style="margin-left:10px">
+        <a href="/{{menuitem.link}}" class="nav-button" *ngIf="menuitem.link != ''">
+          <button mat-raised-button color="primary">
+            <span matTooltip="{{menuitem.tooltip}}" [innerHtml]="menuitem.label" id="btn_{{menuitem.id}}"> </span>
+          </button>
+        </a>
+      </div>
+    </mat-toolbar-row>
+
+  </mat-toolbar>

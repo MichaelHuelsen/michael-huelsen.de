@@ -22,4 +22,12 @@ describe('NotfoundComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+
+  it('should render error page ', async(() => {
+    const fixture = TestBed.createComponent(NotfoundComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('mat-card-title').textContent).toContain('Something went wrong');
+  }));
 });

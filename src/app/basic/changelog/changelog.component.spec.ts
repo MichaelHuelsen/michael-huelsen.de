@@ -22,4 +22,11 @@ describe('ChangelogComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render Changelog title in material tag ', async(() => {
+    const fixture = TestBed.createComponent(ChangelogComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('mat-card-title').textContent).toContain('Change Log');
+  }));
 });

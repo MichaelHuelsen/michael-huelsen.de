@@ -20,7 +20,8 @@ export class NavigationComponent implements OnInit {
     "label": "Home",
     "icon": "fa-home",
     "link": "Home",
-    "tooltip": "Home"
+    "tooltip": "Home",
+    "id" : "home"
   },
   /*
   {
@@ -39,12 +40,14 @@ export class NavigationComponent implements OnInit {
     "icon": "fa-info",
     "link": "PGP",
     "tooltip": "My PGP policy",
+    "id" : "pgp"
   },
   {
     "label": "Imprint",
     "icon": "fa-info",
     "link": "Imprint",
-    "tooltip": "Imprint"
+    "tooltip": "Imprint",
+    "id" : "imprint"
   }
   ];
 

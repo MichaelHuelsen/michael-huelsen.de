@@ -22,4 +22,12 @@ describe('ImprintComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+
+  it('should render Imprint title in material tag ', async(() => {
+    const fixture = TestBed.createComponent(ImprintComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('mat-card-title').textContent).toContain('Imprint');
+  }));
 });
