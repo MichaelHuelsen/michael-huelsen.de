@@ -22,32 +22,40 @@ export class ChangelogComponent implements OnInit {
         ]
       },*/
     {
+      "versionName": "2.3.0",
+      "versionDate": "2021-01-20",
+      "versionIssues": [
+        { "text": "Added links to social media platforms." },
+        { "text": "Minor upgrades." },
+      ]
+    },
+    {
       "versionName": "2.2.0",
       "versionDate": "2020-07-03",
       "versionIssues": [
         { "text": "Major upgrade, Angular was migrated to version 10." },
         { "text": "Outdated npm packages were upgraded as well." }
       ]
-    },{
+    }, {
       "versionName": "2.1.3",
       "versionDate": "2020-07-02",
       "versionIssues": [
         { "text": "Corrections in imprint." },
         { "text": "Some npm packages were updated." }
       ]
-    },{
+    }, {
       "versionName": "2.1.2",
       "versionDate": "2019-05-28",
       "versionIssues": [
         { "text": "Corrections in pgp policy." }
       ]
-    },{
+    }, {
       "versionName": "2.1.1",
       "versionDate": "2019-03-26",
       "versionIssues": [
         { "text": "Refurbishments, again." }
       ]
-    },{
+    }, {
       "versionName": "2.1.0",
       "versionDate": "2019-03-25",
       "versionIssues": [

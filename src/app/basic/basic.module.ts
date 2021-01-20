@@ -16,6 +16,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatIconModule } from '@angular/material/icon';
 import { ChangelogComponent } from './changelog/changelog.component';
+import { SocialComponent } from './social/social.component';
 
 
 @NgModule({
@@ -29,7 +30,7 @@ import { ChangelogComponent } from './changelog/changelog.component';
   ],
   //declarations: [HomeComponent, ImprintComponent, NavigationComponent, FooterComponent]
   declarations: [HomeComponent, ImprintComponent, NavigationComponent,
-    FooterComponent, PgpComponent, NotfoundComponent, ChangelogComponent, AboutComponent, DevelopmentComponent],
+    FooterComponent, PgpComponent, NotfoundComponent, ChangelogComponent, AboutComponent, DevelopmentComponent, SocialComponent],
   exports: [
     HomeComponent, NavigationComponent, ImprintComponent, FooterComponent,
     PgpComponent, NotfoundComponent, AboutComponent, DevelopmentComponent

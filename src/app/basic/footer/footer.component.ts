@@ -12,11 +12,11 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
-  version = "2.2.1";
-  date = "2020-07-05";
+  version = "2.3.0";
+  date = "2021-01-20";
   appVersion() {
     return "Version " + this.version + ", " + this.date;
   }
-  appCopyright = "&copy; 2015-2020 Michael H&uuml;lsen"
+  appCopyright = "&copy; 2015-2021 Michael H&uuml;lsen"
 
 }

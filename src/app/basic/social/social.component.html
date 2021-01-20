@@ -1,0 +1,8 @@
+<p>Find me on the following sites:</p>
+<mat-card-content>
+  <ul>
+    <li *ngFor="let l of linkedSites">
+      <a href="{{l.siteUrl}}" target="blank">{{l.siteName}}</a>
+    </li>
+  </ul>
+</mat-card-content>
