@@ -13,7 +13,7 @@ export class FooterComponent implements OnInit {
   }
 
   version = "2.3.0";
-  date = "2021-01-20";
+  date = "2021-01-27";
   appVersion() {
     return "Version " + this.version + ", " + this.date;
   }

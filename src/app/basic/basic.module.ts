@@ -5,8 +5,6 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 import { PgpComponent } from './pgp/pgp.component';
-import { AboutComponent } from './about/about.component';
-import { DevelopmentComponent } from './development/development.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 
 import { MatButtonModule } from '@angular/material/button';
@@ -28,12 +26,11 @@ import { SocialComponent } from './social/social.component';
     MatTooltipModule,
     MatIconModule
   ],
-  //declarations: [HomeComponent, ImprintComponent, NavigationComponent, FooterComponent]
   declarations: [HomeComponent, ImprintComponent, NavigationComponent,
-    FooterComponent, PgpComponent, NotfoundComponent, ChangelogComponent, AboutComponent, DevelopmentComponent, SocialComponent],
+    FooterComponent, PgpComponent, NotfoundComponent, ChangelogComponent, SocialComponent],
   exports: [
     HomeComponent, NavigationComponent, ImprintComponent, FooterComponent,
-    PgpComponent, NotfoundComponent, AboutComponent, DevelopmentComponent
+    PgpComponent, NotfoundComponent
   ]
 })
 export class BasicModule { }

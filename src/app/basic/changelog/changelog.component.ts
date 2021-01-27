@@ -23,7 +23,7 @@ export class ChangelogComponent implements OnInit {
       },*/
     {
       "versionName": "2.3.0",
-      "versionDate": "2021-01-20",
+      "versionDate": "2021-01-27",
       "versionIssues": [
         { "text": "Added links to social media platforms." },
         { "text": "Minor upgrades." },

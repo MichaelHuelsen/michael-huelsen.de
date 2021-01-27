@@ -23,11 +23,11 @@ export class SocialComponent implements OnInit {
     },
     {
       "siteName": "LinkedIn",
-      "siteUrl": "https://www.linkedin.com",
+      "siteUrl": "https://www.linkedin.com/in/michael-hülsen-72aa23199",
     },
     {
       "siteName": "Xing",
-      "siteUrl": "https://www.xing.de",
+      "siteUrl": "https://www.xing.com/profile/Michael_Huelsen2/",
     },
   ];
 
