@@ -22,6 +22,14 @@ export class ChangelogComponent implements OnInit {
         ]
       },*/
     {
+      "versionName": "2.3.1",
+      "versionDate": "2021-01-28",
+      "versionIssues": [
+        { "text": "Menu refactoring." },
+        { "text": "npm package upgrades." },
+      ]
+    },
+    {
       "versionName": "2.3.0",
       "versionDate": "2021-01-27",
       "versionIssues": [

@@ -15,12 +15,14 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatIconModule } from '@angular/material/icon';
 import { ChangelogComponent } from './changelog/changelog.component';
 import { SocialComponent } from './social/social.component';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 @NgModule({
   imports: [
     CommonModule,
     MatButtonModule,
+    MatMenuModule,
     MatToolbarModule,
     MatCardModule,
     MatTooltipModule,

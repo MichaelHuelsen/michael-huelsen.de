@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
-  styleUrls: ['./navigation.component.scss'],
+  styleUrls: ['./navigation.component.css'],
 })
 
 export class NavigationComponent implements OnInit {
@@ -18,25 +18,26 @@ export class NavigationComponent implements OnInit {
   subLine = "Welcome to my personal website.";
   menuItems = [{
     "label": "Home",
-    "icon": "fa-home",
+    "icon": "home",
     "link": "Home",
     "tooltip": "Home",
     "id": "home"
   },
   {
     "label": "PGP",
-    "icon": "fa-info",
+    "icon": "https",
     "link": "PGP",
     "tooltip": "My PGP policy",
     "id": "pgp"
   },
   {
     "label": "Imprint",
-    "icon": "fa-info",
+    "icon": "info",
     "link": "Imprint",
     "tooltip": "Imprint",
     "id": "imprint"
   }
   ];
+
 
 }
