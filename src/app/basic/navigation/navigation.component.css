@@ -1,0 +1,9 @@
+a.menu-link{
+    outline: none;
+    text-decoration: none !important;
+}
+
+a.menu-link:link, a.menu-link:link:hover {
+    outline: none;
+     text-decoration: none !important;
+    }
