@@ -22,6 +22,12 @@ export class ChangelogComponent implements OnInit {
         ]
       },*/
     {
+      "versionName": "2.3.2",
+      "versionDate": "2021-01-30",
+      "versionIssues": [
+        { "text": "adding @angular/flex and flexbox refactoring." },
+      ]
+    }, {
       "versionName": "2.3.1",
       "versionDate": "2021-01-28",
       "versionIssues": [

@@ -11,6 +11,8 @@ import { HomeComponent } from './basic/home/home.component';
 import { ImprintComponent } from './basic/imprint/imprint.component';
 import { PgpComponent } from './basic/pgp/pgp.component';
 import { NotfoundComponent } from './basic/notfound/notfound.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 
 
@@ -29,6 +31,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     FormsModule,
     BasicModule,
+    FlexLayoutModule,
     RouterModule.forRoot(
       appRoutes)
   ],

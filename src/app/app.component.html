@@ -1,3 +1,11 @@
-<app-navigation></app-navigation>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+<mat-card fxFlex fxLayout="column" fxLayoutAlign="stretch">
+    <div fxFlex fxLayout="column" fxLayoutAlign="space-around stretch">
+        <app-navigation></app-navigation>
+    </div>
+    <div fxFlex fxLayout="column" fxLayoutAlign="space-around stretch">
+        <router-outlet></router-outlet>
+    </div>
+    <div fxFlex fxLayout="column" fxLayoutAlign="space-around stretch">
+        <app-footer></app-footer>
+    </div>
+</mat-card>
