@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from '../../../environments/environment';
+
 
 @Component({
   selector: 'app-footer',
@@ -12,7 +14,8 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
-  version = "2.3.2";
+  version = environment.appVersion;
+  // TODO set date in environment as well
   date = "2021-01-30";
   appVersion() {
     return "Version " + this.version + ", " + this.date;

@@ -10,6 +10,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es2015",
+    "types": [
+      "node"
+    ],
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -19,5 +22,10 @@
     ],
     "module": "es2020",
     "baseUrl": "./"
+  },
+  "anuglarCompilerOptions": {
+    "types": [
+      "node"
+    ]
   }
 }
