@@ -15,8 +15,7 @@ export class FooterComponent implements OnInit {
   }
 
   version = environment.appVersion;
-  // TODO set date in environment as well
-  date = "2021-01-30";
+  date = environment.lastUpdate;
   appVersion() {
     return "Version " + this.version + ", " + this.date;
   }

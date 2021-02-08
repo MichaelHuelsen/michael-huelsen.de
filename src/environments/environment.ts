@@ -8,5 +8,6 @@
 
 export const environment = {
   appVersion: require('../../package.json').version + '-dev',
+  lastUpdate: require('../../package.json').lastUpdate,
   production: false
 };

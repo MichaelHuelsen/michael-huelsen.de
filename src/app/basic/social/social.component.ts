@@ -15,11 +15,11 @@ export class SocialComponent implements OnInit {
   linkedSites = [
     {
       "siteName": "StackOverflow",
-      "siteUrl": "https://www.stackoverflow.com",
+      "siteUrl": "https://stackoverflow.com/users/4537576/michaelhuelsen",
     },
     {
       "siteName": "GitHub",
-      "siteUrl": "https://www.github.com",
+      "siteUrl": "https://www.github.com/michaelhuelsen",
     },
     {
       "siteName": "LinkedIn",

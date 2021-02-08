@@ -22,6 +22,13 @@ export class ChangelogComponent implements OnInit {
         ]
       },*/
     {
+      "versionName": "2.4.1",
+      "versionDate": "2021-02-08",
+      "versionIssues": [
+        { "text": "fixing URL typos" },
+      ]
+    },
+    {
       "versionName": "2.4.0",
       "versionDate": "2021-01-31",
       "versionIssues": [

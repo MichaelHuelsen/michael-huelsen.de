@@ -1,6 +1,7 @@
 {
   "name": "michael-huelsen.de",
-  "version": "2.4.0",
+  "version": "2.4.1",
+  "lastUpdate": "2021-02-08",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
