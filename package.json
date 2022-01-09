@@ -1,7 +1,7 @@
 {
   "name": "michael-huelsen.de",
-  "version": "2.4.1",
-  "lastUpdate": "2021-02-08",
+  "version": "2.5.0",
+  "lastUpdate": "2022-01-10",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -15,19 +15,19 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^13.1.1",
-    "@angular/cdk": "^11.0.0",
+    "@angular/cdk": "^13.0.0",
     "@angular/common": "^13.1.1",
     "@angular/compiler": "^13.1.1",
-    "@angular/flex-layout": "^11.0.0-beta.33",
+    "@angular/flex-layout": "^13.0.0-beta.36",
     "@angular/forms": "^13.1.1",
-    "@angular/material": "^11.0.0",
+    "@angular/material": "^13.1.1",
     "core-js": "^3.6.5",
     "rxjs": "^6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.1.2",
+    "@angular-devkit/build-angular": "^13.1.2",
     "@angular/cli": "^13.1.2",
     "@angular/compiler-cli": "^13.1.1",
     "@angular/core": "^13.1.1",

@@ -22,6 +22,13 @@ export class ChangelogComponent implements OnInit {
         ]
       },*/
     {
+      "versionName": "2.5.0",
+      "versionDate": "2021-02-10",
+      "versionIssues": [
+        { "text": "Angular version upgrade" },
+      ]
+    },
+    {
       "versionName": "2.4.1",
       "versionDate": "2021-02-08",
       "versionIssues": [

@@ -19,6 +19,6 @@ export class FooterComponent implements OnInit {
   appVersion() {
     return "Version " + this.version + ", " + this.date;
   }
-  appCopyright = "&copy; 2015-2021 Michael H&uuml;lsen"
+  appCopyright = "&copy; 2015-2022 Michael H&uuml;lsen"
 
 }

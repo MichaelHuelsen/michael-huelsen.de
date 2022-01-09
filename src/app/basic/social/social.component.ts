@@ -26,8 +26,8 @@ export class SocialComponent implements OnInit {
       "siteUrl": "https://www.linkedin.com/in/michael-hülsen-72aa23199",
     },
     {
-      "siteName": "Xing",
-      "siteUrl": "https://www.xing.com/profile/Michael_Huelsen2/",
+      "siteName": "Twitter",
+      "siteUrl": "https://www.twitter.com/MichaelHuelsen",
     },
   ];
 
