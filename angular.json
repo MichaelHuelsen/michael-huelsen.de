@@ -60,18 +60,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "michael-huelsen.de:build"
+            "browserTarget": "michael-huelsen:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "michael-huelsen.de:build:production"
+              "browserTarget": "michael-huelsen:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "michael-huelsen.de:build"
+            "browserTarget": "michael-huelsen:build"
           }
         },
         "test": {
@@ -115,7 +115,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "michael-huelsen.de:serve"
+            "devServerTarget": "michael-huelsen:serve"
           }
         },
         "lint": {
@@ -132,7 +132,7 @@
       }
     }
   },
-  "defaultProject": "michael-huelsen.de",
+  "defaultProject": "michael-huelsen",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
