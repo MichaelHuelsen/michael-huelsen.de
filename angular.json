@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "michael-huelsen.de": {
+    "michael-huelsen": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -43,7 +43,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -107,7 +106,7 @@
         }
       }
     },
-    "michael-huelsen.de-e2e": {
+    "michael-huelsen-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
