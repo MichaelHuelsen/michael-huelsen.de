@@ -10,9 +10,12 @@
 - development % technology
 - index.html meta information
 
+## Build and deploy
+
 ## Information
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
+In the meantime it was upgraded to Angular 14.
 
 ## Code
 

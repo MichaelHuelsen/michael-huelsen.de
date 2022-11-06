@@ -132,7 +132,6 @@
       }
     }
   },
-  "defaultProject": "michael-huelsen",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
