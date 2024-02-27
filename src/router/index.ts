@@ -10,6 +10,11 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/changelog',
+      name: 'changelog',
+      component: () => import('../views/ChangelogView.vue')
+    },
+    {
       path: '/imprint',
       name: 'imprint',
       component: () => import('../views/ImprintView.vue')

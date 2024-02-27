@@ -13,6 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/pgp">PGP Policy</RouterLink>
+        <RouterLink to="/changelog">Change Log</RouterLink>
         <RouterLink to="/imprint">Imprint</RouterLink>
       </nav>
     </div>
