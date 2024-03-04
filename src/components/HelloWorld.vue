@@ -8,14 +8,16 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      This is a rewrite of my page using vue instead of Angular.
+      This is a rewrite of my page using
+      <a href="https://vuejs.org" target="_blank"> Vue.js</a> instead of
+      <a href="https://angular.io" target="_blank">Angular</a>.
     </h3>
   </div>
 </template>
 
 <style scoped>
 h1 {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 2.6rem;
   position: relative;
   top: -10px;

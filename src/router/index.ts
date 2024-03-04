@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ChangelogView from '../views/ChangelogView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,7 +13,7 @@ const router = createRouter({
     {
       path: '/changelog',
       name: 'changelog',
-      component: () => import('../views/ChangelogView.vue')
+      component: ChangelogView
     },
     {
       path: '/imprint',
