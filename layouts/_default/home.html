@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ .Content }}
+  <h2>Welcome to my website.</h2>
+  <br>
+  {{ range site.RegularPages }}
+    <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+  {{ end }}
+  {{ partial "footer/footer.html" . }}
+{{ end }}
