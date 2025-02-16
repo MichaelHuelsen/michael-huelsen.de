@@ -9,3 +9,13 @@ Just a few more steps...
 5. Start the embedded web server with the command "hugo server --buildDrafts".
 
 See documentation at https://gohugo.io/.
+
+## Commands
+
+### local dev server
+
+hugo server --buildDrafts
+
+### build
+
+hugo 

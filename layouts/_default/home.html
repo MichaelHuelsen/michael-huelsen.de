@@ -1,9 +1,10 @@
 {{ define "main" }}
+{{ partial "header/header.html" . }}
   {{ .Content }}
-  <h2>Welcome to my website.</h2>
+  <h2>Welcome to my new website, built with Hugo.</h2>
   <br>
   {{ range site.RegularPages }}
     <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
   {{ end }}
-  {{ partial "footer/footer.html" . }}
+  <!-- {{ partial "footer/footer.html" . }} -->
 {{ end }}

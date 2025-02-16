@@ -6,10 +6,9 @@ title = "Social"
 # type = "about"
 +++
 
-You can find me on the web:
-
+You can also find me on other places on the web:
 
 * [GitHub](https://www.github.com/michaelhuelsen)
-* [StackOverflow](https://stackoverflow.com/users/4537576/michaelhuelsen){:target="_blank"}
-* [LinkedIn](https://www.linkedin.com/in/meet-michael-huelsen){:target="_blank"}
-* [incuvolve](https://www.incuvolve.de){:target="_blank"}
+* [StackOverflow](https://stackoverflow.com/users/4537576/michaelhuelsen)
+* [LinkedIn](https://www.linkedin.com/in/meet-michael-huelsen)
+* [incuvolve](https://www.incuvolve.de)
