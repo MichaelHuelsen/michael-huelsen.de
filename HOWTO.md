@@ -18,4 +18,4 @@ hugo server --buildDrafts
 
 ### build
 
-hugo 
+hugo

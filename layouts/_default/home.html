@@ -1,10 +1,22 @@
-{{ define "main" }}
-{{ partial "header/header.html" . }}
-  {{ .Content }}
-  <h2>Welcome to my new website, built with Hugo.</h2>
-  <br>
+{{ define "main" }} {{ partial "header/header.html" . }}
+
+<h2>Welcome to my new website, built with Hugo.</h2>
+<br />
+{{.Content}} {{ range where .Site.RegularPages "Type" "in"
+.Site.Params.mainSections }}
+<!-- where .Data.Pages "Section" "posts" }}-->
+<a href="{{.RelPermalink}}">{{ .Title }}</a><br />
+{{ end }}
+
+<!-- list the regular pages as follows 
+  {{ with (index (where site.RegularPages "Type" "posts").ByDate.Reverse 0) }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  {{ end }}
+  
   {{ range site.RegularPages }}
     <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
   {{ end }}
-  <!-- {{ partial "footer/footer.html" . }} -->
+  -->
+<!-- {{ partial "footer/footer.html" . }} -->
 {{ end }}
