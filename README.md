@@ -4,7 +4,7 @@ This README is work in progress...
 
 ## hugo
 
-See documentation at https://gohugo.io/.
+See documentation at [gohugo.io](https://gohugo.io/).
 
 ## helpful hugo commands
 
@@ -29,8 +29,8 @@ hugo
 ## hugo themes
 
 1. Create or install a theme:
-   - Create a new theme with the command "hugo new theme <THEMENAME>"
-   - Or, install a theme from https://themes.gohugo.io/
+   - Create a new theme with the command "hugo new theme THEMENAME"
+   - Or, install a theme from [themes.gohugo.io](https://themes.gohugo.io/)
 2. Edit hugo.toml, setting the "theme" property to the theme name.
-3. Create new content with the command "hugo new content <SECTIONNAME>/<FILENAME>.<FORMAT>".
+3. Create new content with the command "hugo new content SECTION/FILENAME.FORMAT".
 4. Start the embedded web server with the command "hugo server --buildDrafts".
