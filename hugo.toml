@@ -1,0 +1,28 @@
+baseURL = 'https://michael-huelsen.de/'
+languageCode = 'de-de'
+title = 'michael-huelsen.de'
+theme = 'papermod'
+
+# sectionPagesMenu = 'main'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 5
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 7
+  [[menus.main]]
+    name = 'Social'
+    pageRef = '/social'
+    weight = 10
+  [[menus.main]]
+    name = 'PGP'
+    pageRef = '/pgp'
+    weight = 20
+  [[menus.main]]
+    name = 'Imprint'
+    pageRef = '/imprint'
+    weight = 30
