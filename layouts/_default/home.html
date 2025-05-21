@@ -1,12 +1,19 @@
-{{ define "main" }}
-
-<h2>Welcome to my website, built with Hugo.</h2>
+{{ define "main" }} <br />
+{{ partial "header/header.html" .}}<br />
+<h2>Welcome to my website.</h2>
 <br />
+<!-- {{ partial "cc-license.html" . }}-->
 
 {{- range ( where site.RegularPages "Section" "posts" | first 3 ) }}
-<li>
-  <a href="{{ .Permalink }}"
-    ><b> {{ .Title }} </b>({{ .Date | time.Format ":date_medium"}})</a
-  >
-</li>
-{{ .Summary}} {{- end}} {{end}}
+<div>
+  <li style="margin-top: 20px">
+    <a href="{{ .Permalink }}"
+      ><b> {{ .Title }} </b>({{ .Date | time.Format ":date_medium"}})</a
+    >
+  </li>
+  {{ .Summary}} {{- end}}<br />
+</div>
+<!--
+{{ partial "footer/footer.html" .}}<br />
+-->
+{{end}}
