@@ -2,6 +2,7 @@
 date = 2025-05-20
 draft = false
 title = 'Getting Started'
+summary = 'Summarizing the post'
 weight = 10
 [params]
   author = 'Michael Hülsen'
