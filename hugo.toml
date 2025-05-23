@@ -1,5 +1,5 @@
 baseURL = 'https://michael-huelsen.de/'
-languageCode = 'de-de'
+languageCode = 'de-DE'
 title = 'michael-huelsen.de'
 theme = 'papermod'
 
@@ -26,3 +26,32 @@ theme = 'papermod'
     name = 'Imprint'
     pageRef = '/imprint'
     weight = 30
+  [[menus.main]]
+    name = 'Categories'
+    pageRef = '/categories'
+    weight = 40
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 50
+
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = true
+
+[languages.de]
+contentDir = 'content/de'
+languageCode = 'de-DE'
+languageName = 'German'
+weight = 1
+
+[languages.en]
+contentDir = 'content/en'
+languageCode = 'en-US'
+languageName = 'English'
+weight = 2
+
+ignoreFiles = ['IDEAS.md', 'README.md', 'LICENSE', 'component.ts']
+
+[taxonomies]
+tag = "tags"
+category = "categories"
