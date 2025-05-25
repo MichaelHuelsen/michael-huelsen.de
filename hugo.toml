@@ -2,6 +2,7 @@ baseURL = 'https://michael-huelsen.de/'
 languageCode = 'de-DE'
 title = 'michael-huelsen.de'
 theme = 'papermod'
+description = 'DESCRIPTION'
 
 # sectionPagesMenu = 'main'
 
@@ -59,3 +60,10 @@ ignoreFiles = ['IDEAS.md', 'README.md', 'LICENSE', 'component.ts']
 [taxonomies]
 tag = "tags"
 category = "categories"
+
+[params]
+  copyright-year = '2015-2025'
+  # subtitle = 'The Best Widgets on Earth'
+  [params.author]
+    # email = 'jsmith@example.org'
+    name = 'Michael Hülsen'

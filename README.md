@@ -26,6 +26,24 @@ create deployment version of the website:
 hugo
 ```
 
+create a minified version of the website:
+
+```sh
+hugo --gc --minify
+```
+
+configuration of rclone
+
+```sh
+rclone config
+```
+
+deployment with rclone
+
+```sh
+rclone sync --interactive public/ <name_of_remote>:<folder_on_remote_server>
+```
+
 ## hugo themes
 
 1. Create or install a theme:
