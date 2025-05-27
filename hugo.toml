@@ -3,6 +3,7 @@ languageCode = 'de-DE'
 title = 'michael-huelsen.de'
 theme = 'papermod'
 description = 'DESCRIPTION'
+copyright = '© 2015-2025 by Michael Hülsen'
 
 # sectionPagesMenu = 'main'
 
@@ -61,9 +62,11 @@ ignoreFiles = ['IDEAS.md', 'README.md', 'LICENSE', 'component.ts']
 tag = "tags"
 category = "categories"
 
+copyright = 'BLA'
+
 [params]
   copyright-year = '2015-2025'
-  # subtitle = 'The Best Widgets on Earth'
+  # subtitle = ''
   [params.author]
-    # email = 'jsmith@example.org'
+    email = 'mail@michael-huelsen.de'
     name = 'Michael Hülsen'
