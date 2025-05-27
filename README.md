@@ -2,11 +2,23 @@
 
 This README is work in progress...
 
+## init / update submodules
+
+```sh
+git submodule update --init
+``` 
+
 ## hugo
 
 See documentation at [gohugo.io](https://gohugo.io/).
 
-## helpful hugo commands
+### Windows
+
+```ps1
+winget install Hugo.Hugo.Extended
+```
+
+### helpful hugo commands
 
 run a server showing drafts as well.
 
