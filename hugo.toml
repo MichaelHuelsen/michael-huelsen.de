@@ -2,7 +2,7 @@ baseURL = 'https://michael-huelsen.de/'
 languageCode = 'de-DE'
 title = 'michael-huelsen.de'
 theme = 'papermod'
-description = 'DESCRIPTION'
+description = 'Personal website of Michael Hülsen'
 copyright = '© 2015-2025 by Michael Hülsen'
 
 # sectionPagesMenu = 'main'
@@ -56,13 +56,11 @@ languageCode = 'en-US'
 languageName = 'English'
 weight = 2
 
-ignoreFiles = ['IDEAS.md', 'README.md', 'LICENSE', 'component.ts']
+ignoreFiles = ['IDEAS.md', 'README.md', 'LICENSE', 'changelog.component.ts']
 
 [taxonomies]
 tag = "tags"
 category = "categories"
-
-copyright = 'BLA'
 
 [params]
   copyright-year = '2015-2025'

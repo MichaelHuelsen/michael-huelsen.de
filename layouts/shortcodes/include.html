@@ -1,0 +1,2 @@
+{{- $file := .Get 0 -}} {{- $dir := .Page.File.Dir -}} {{- $fullname := (printf
+"%s/%s" $dir $file)}} {{- readFile $fullname -}}
