@@ -4,7 +4,7 @@
         {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
         {{- else }}
-        <span>&copy; 2015 - {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+        <span>&copy; 2015 - {{ now.Year }} ({{ hugo.BuildDate }}) <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
         {{- print " · "}}
     {{- end }}
@@ -14,6 +14,7 @@
         {{- print " · "}}
     {{- end }}
 
+    <span>(last update {{ time.Now | dateFormat "2006-01-02" }} ) · </span>
     {{ partial "cc-license.html" . }}
     <br>
 
