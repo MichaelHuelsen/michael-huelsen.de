@@ -1,7 +1,6 @@
 {{ define "main" }} <br />
 <h2>Welcome to my website.</h2>
 <br />
-<!-- {{ partial "cc-license.html" . }}-->
 
 {{- range ( where site.RegularPages "Section" "posts" | first 3 ) }}
 <div>
@@ -12,4 +11,5 @@
   </li>
   {{ .Summary}} {{- end}}<br />
 </div>
+<div style="margin-top: 50px">{{ partial "kofi.html" . }}</div>
 {{end}}
