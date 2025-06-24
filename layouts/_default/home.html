@@ -1,6 +1,12 @@
 {{ define "main" }} <br />
 <h2>Welcome to my website.</h2>
 <br />
+<div>
+  {{ range where .Data.Pages "Title" "Welcome" }} {{ .Plain | absLangURL }} {{
+  end }}
+</div>
+
+<br />
 
 {{- range ( where site.RegularPages "Section" "posts" | first 3 ) }}
 <div>
