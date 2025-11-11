@@ -5,6 +5,10 @@ theme = 'papermod'
 description = 'Personal website of Michael Hülsen'
 copyright = '© 2015-2025 by Michael Hülsen'
 
+### some configuration
+pluralizeListTitles = false
+
+### MENUS
 # sectionPagesMenu = 'main'
 
 [menus]
