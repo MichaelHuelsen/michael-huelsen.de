@@ -5,11 +5,15 @@ theme = 'papermod'
 description = 'Personal website of Michael Hülsen'
 copyright = '© 2015-2025 by Michael Hülsen'
 
+<<<<<<< HEAD
 ### some configuration
 pluralizeListTitles = false
 
 ### MENUS
 # sectionPagesMenu = 'main'
+=======
+sectionPagesMenu = 'more'
+>>>>>>> f28e62a0905809522ade83c95c6539ea2733d4ca
 
 [menus]
   [[menus.main]]
@@ -21,22 +25,6 @@ pluralizeListTitles = false
     pageRef = '/posts'
     weight = 7
   [[menus.main]]
-    name = 'Social'
-    pageRef = '/social'
-    weight = 10
-  [[menus.main]]
-    name = 'PGP'
-    pageRef = '/pgp'
-    weight = 20
-  [[menus.main]]
-    name = 'Imprint'
-    pageRef = '/imprint'
-    weight = 30
-  [[menus.main]]
-    name = 'Categories'
-    pageRef = '/categories'
-    weight = 40
-  [[menus.main]]
     name = 'Tags'
     pageRef = '/tags'
     weight = 50
@@ -44,6 +32,10 @@ pluralizeListTitles = false
     name = 'Blogroll'
     pageRef = '/blogroll'
     weight = 60
+  [[menus.main]]
+    name = 'More...'
+    pageRef = '/more'
+    weight = 70
 
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = true
