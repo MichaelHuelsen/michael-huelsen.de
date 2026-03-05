@@ -2,20 +2,20 @@
 <h2>Welcome to my website.</h2>
 <br />
 <div>
-  {{ range where .Data.Pages "Title" "Welcome" }} {{ .Plain | absLangURL }} {{
-  end }}
+    {{ range where .Data.Pages "Title" "Welcome" }} {{ .Plain | absLangURL }} {{
+    end }}
 </div>
 
 <br />
 
 {{- range ( where site.RegularPages "Section" "posts" | first 5 ) }}
 <div>
-  <li style="margin-top: 20px">
-    <a href="{{ .Permalink }}"
-      ><b> {{ .Title }} </b>({{ .Date | time.Format ":date_medium"}})</a
-    >
-  </li>
-  {{ .Summary}} {{- end}}<br />
+    <li style="margin-top: 20px">
+        <a href="{{ .Permalink }}"
+            ><b> {{ .Title }} </b>({{ .Date | time.Format ":date_medium"}})</a
+        >
+    </li>
+    {{ .Summary}} {{- end}}<br />
 </div>
 <div style="margin-top: 50px">{{ partial "kofi.html" . }}</div>
 {{end}}
