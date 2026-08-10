@@ -56,7 +56,7 @@ tag = "tags"
 category = "categories"
 
 [params]
-  copyright-year = '2015-2025'
+  copyright-year = '2015-2026'
   # subtitle = ''
   [params.author]
     email = 'mail@michael-huelsen.de'
