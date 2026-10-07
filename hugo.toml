@@ -61,3 +61,6 @@ category = "categories"
   [params.author]
     email = 'mail@michael-huelsen.de'
     name = 'Michael Hülsen'
+
+[markup.goldmark.renderer]
+    unsafe = true
