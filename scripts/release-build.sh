@@ -1,27 +1,23 @@
 #!/bin/bash
 
-# run aspell
+# Run all pre-release checks, then build the site if every check passes.
 #
-#
+# Usage: scripts/release-build.sh
 
-YEARS=("2025" "2026")
-LANGS=("de" "en")
+cd "$(dirname "$0")/.." || exit 1
 
-for l in "${LANGS[@]}"; do
-    echo $l
-    cd content/$l/posts
-    pwd
+CHECKS=(
+    scripts/find-missing-posts.sh
+    scripts/check-drafts.sh
+    scripts/spellcheck.sh
+)
 
-
-    for y in "${YEARS[@]}"; do
-        for p in `ls $y/*.md`; do
-            aspell -l $l check $p
-        done
-    done
-
-    cd ..
-    cd ..
-    cd ..
+for check in "${CHECKS[@]}"; do
+    echo ">> $check"
+    if ! "$check"; then
+        echo "Check failed: $check. Build aborted."
+        exit 1
+    fi
 done
 
 hugo --gc --minify

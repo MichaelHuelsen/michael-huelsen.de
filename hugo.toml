@@ -1,5 +1,5 @@
 baseURL = 'https://michael-huelsen.de/'
-languageCode = 'de-DE'
+locale = 'de-DE'
 title = 'michael-huelsen.de'
 theme = 'papermod'
 description = 'Personal website of Michael Hülsen'
@@ -39,14 +39,14 @@ defaultContentLanguageInSubdir = true
 
 [languages.de]
 contentDir = 'content/de'
-languageCode = 'de-DE'
-languageName = 'German'
+locale = 'de-DE'
+label = 'German'
 weight = 1
 
 [languages.en]
 contentDir = 'content/en'
-languageCode = 'en-US'
-languageName = 'English'
+locale = 'en-US'
+label = 'English'
 weight = 2
 
 ignoreFiles = ['IDEAS.md', 'README.md', 'LICENSE', 'changelog.component.ts']
