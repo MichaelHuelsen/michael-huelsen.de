@@ -55,6 +55,9 @@ ignoreFiles = ['IDEAS.md', 'README.md', 'LICENSE', 'changelog.component.ts']
 tag = "tags"
 category = "categories"
 
+[pagination]
+  pagerSize = 4
+
 [params]
   copyright-year = '2015-2026'
   # subtitle = ''
